@@ -13,3 +13,6 @@ Task-01
 5. This results in a new updated pixels' list, whose image looks identical to human eye. Now I stored the encoded image
 
 6. During decoding, I extracted red values, collected their last bit, grouped every 8 bits and converted them to characters and then displayed it.
+
+I chose Least Significant Bit method as its simple and the output image has negligible visual changes to be recognized by human eye. Other methods such as DCT
+(Discrete Cosine Transform) which hides data is frequency domain by modifying DCT coefficent is more complex and slower and DWT(Discrete Wavelet Transform) which hides data in wavelet-transformed images is computationally heavy and harder to implement. I haven't gone in depth about these two methods yet.
